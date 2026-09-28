@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "TrailMate",
+    "slug": "trailmate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "edu.umich.si669.trailmate"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2F6B47",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "edu.umich.si669.trailmate"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
