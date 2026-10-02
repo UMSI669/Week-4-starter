@@ -30,15 +30,15 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# Ignore every .env file and variant
-.env
-.env.*
-
-# Keep the example configuration tracked
-!.env.example
+# local env files
+.env*.local
 
 # typescript
 *.tsbuildinfo
+
+# Claude Code
+.claude/
+CLAUDE.md
 
 # generated native folders
 /ios
